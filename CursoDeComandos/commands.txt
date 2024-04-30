@@ -1,0 +1,23 @@
+ls = list
+ls -l = list long
+cd = change directory to main menu
+cd .. = restore 1 directory
+cd dire/dire/dire
+cd ../.. 
+touch dir/dir/file.txt
+file commnad.txt
+ls -ls = order list
+tree 
+tree -L2
+mv dir dir2 = to move
+mv archivo archivoCopia = to copy
+ls platzi/Curso/ 
+rm 
+rm -ri = delete files as tree
+less archivo.txt = abre archivo if you put slash (/), you can search for a 
+word
+---------------------
+xdg-open archivo.txt= open a file
+mv file.txt /home/diego = its moves to where you wanto
+
+nautilus = for open a dir
