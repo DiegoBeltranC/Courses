@@ -22,4 +22,21 @@ mv file.txt /home/diego = its moves to where you wanto
 
 nautilus = for open a dir
 
-
+------------------
+ls *.txt (buscar cualquier archivo que termine con txt)
+ls palabra* (cualquier palabra que inicie con la misma y tenga mas caracteres)
+ls palabra? || ls palabra ??? (que tenga una palabra mas o hasta 3)
+ls [[:upper:]]* || ls -d [[upper]] (cualquier palabra que tenga mayus o directorio)
+ls [caracter o caracteres]* || ls *[[:lower:]] (archivos que tengas 
+determnados caracteres) 
+-------------
+ls (argumento) > (donde quiero el output).txt <-ejemplo
+>> concatenar || 2> (error) || 2>&1
+--------------
+pipe operator |, it uses the output of one function as argument to other:
+ls -platzi | lolcat
+-----------
+; -> sycronic
+& -> asyncronic
+&& -> control operator
+|| -> or
