@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        :root{
+           --very-light-pink: #c7c7c7 ;
+           --hospital-green: #ACD9B2;
+           --text-input-fiel: #f7f7f7;
+           --dark: #232830;
+        }
+        body{
+            font-family: Quicksand;
+        }
+        .products-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,240px);
+            gap: 26px;
+            place-content: center;
+        }
+        .product-card{
+            width: 240px;
+        }
+
+        .product-card img{
+            width: 240px;
+            height: 240px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        .card-info{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+        }
+        .card-info figure{
+            margin: 0;
+            width: 35px;
+            height: 35px;
+        }
+        .card-info figure img{
+            height: 100%;
+        }
+
+        .prices p:nth-child(1){
+            margin-top: 0;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .prices p:nth-child(2){
+            margin-top: 0;
+            color: var(--very-light-pink);
+        }
+
+        .card-info figure img{
+            width: 100%;
+        }
+        @media (max-width:640px){
+            .products-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,140px);
+            gap: 26px;
+            place-content: center;
+        }
+        .product-card{
+            width: 140px;
+        }
+
+        .product-card img{
+            width: 140px;
+            height: 140px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        }
+    </style>
+</head>
+<body>
+    <section class="main-container">
+        <div class="products-container">
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="card-info">
+                    <div class="prices">
+                        <p>$1300</p>
+                        <p>computer</p>
+                    </div>
+                    <figure>
+                        <img src="./icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</body>
+</html>
