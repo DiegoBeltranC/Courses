@@ -19,3 +19,18 @@ git pull origin main
 git tag -a v0.1 -m "mensaje" hash
 git push origin --tags
 git push origin :refs/tags/dormido
+
+rebase - rebase is like merging but it replace all the changes
+stash - it saves all the changes that you do but not as a commit, just similar, also you can create a branch from 
+there
+
+git clean borra las cosas innecesarias
+
+git cherry-pick, is like a merge but you can select a hash that doesnt matter if is in the begginning
+
+git reflog is a total history of everything
+
+git commit --amend -> it inserts the last add to the last commit that already was did it
+
+git grep -> look for text or files in all the repositro
+git log -S "word" -> similar to grep
