@@ -1,0 +1,117 @@
+
+body{
+    background-color: #EF9C66;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: #FCDC94;
+    height: 4rem;
+}
+
+.nav-bar ul{
+    height: 100%;
+    margin: 0 0 0 3rem;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: end;
+}
+
+.nav-bar ul li{
+    margin: 0 3rem .5rem 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    background-color: #FCDC94;
+    align-items: center;
+}
+
+
+
+.image-container{
+    margin: 4rem auto;
+}
+.meetup img{
+    width:30%;
+    margin:1rem ;
+}
+
+.experience{
+    height: 19rem;
+    background-color: #C8CFA0;
+}
+
+
+.experience h2{
+    font-size: 2.5rem;
+    color: #78ABA8;
+}
+
+.experience div{
+    padding: 1rem;
+}
+
+.images img{
+    width: 30%;
+    margin: 1rem;
+}
+
+.images img:nth-child(1){
+    margin-top: 5rem;
+}
+
+.last-image{
+    margin-bottom: 1rem;
+}
+
+.last-image h2{
+    text-align: center;
+    color: #FCDC94;
+    font-size: 4rem;
+}
+
+.last-image img{
+    display: block;
+    margin: auto;
+    width: 60%;
+
+}
+
+@media screen and (max-width: 1042px) {
+    .meetup img{
+        width:100%;
+        margin:0;
+    }
+    .images img{
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 585px) {
+    .nav-bar{
+        background-color: #FCDC94;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-bar ul{
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+}
